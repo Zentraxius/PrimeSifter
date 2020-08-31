@@ -1,18 +1,21 @@
 # TITLE
 
-#### BRIEF DESCRIPTION, 6.15.2020
+#### BRIEF DESCRIPTION, 8.31.2020
 
-#### By Jeff Kim
+#### By Jeff Kim, Cody Fritz and Micheal Hansen
 
 ## Description
 
-_DETAILED DESCRIPTION_
+JavaScript Console app that will mimic the function of the Sieve of Eratosthenes
 
 ## Specs
 
 1. OBJECTIVE
-Sample Input: 
-Sample Output: 
+| Spec | Input | Output |
+| Program will intialize an array of numbers from 2 to 'n' | n = 10 | [2, 3, 4, 5, 6, 7, 8, 9, 10] |
+| Program will set a variable 'prime' equal to 2 and remove all multiples of 'prime' from the array | n/a | [2, 3, 5, 7, 9] |
+| Program will increment 'prime' by 1 index | n/a | [2, 3, 5, 7] |
+| Program will continue to increment 'prime' until 'prime' is >= 'n' | n/a | [2, 3, 5, 7] | 
 
 ## Setup/Installation Requirements
 
